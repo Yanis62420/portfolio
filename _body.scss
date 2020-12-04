@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans+KR&family=Rambla&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: #283655 !important;
+    background-color: #f7faff;
+    font-family: 'Rambla', sans-serif;
+}
+h2, h3 {
+    font-family: 'Audiowide', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #283655;
+}
+li {
+    list-style-type: none;
+}
+/* Bootstrap */
+
+#langages {
+    padding: 80px 80px 80px 50px;
+    margin: 20px 0 0 6%;
+    height: 620px;
+    width: 47%;
+    max-width: 640px;
+    background: linear-gradient(131deg,#d5f803 0%, #ffff00 20%, #e9e600 40%, #ffec00 99%);
+    clip-path: polygon(0 8%, 100% 0%, 92% 100%, 0% 100%);
+}
+#langages .bar{
+    padding: 10px 0 4px 0;
+    letter-spacing: 0.1em;
+}
+#formation  {
+    position: relative;
+    top: -200px;
+    float: right;
+    margin-right: 5%;
+    padding: 80px 0 60px 50px;
+    width: 40%;
+    max-width: 660px;
+    background: linear-gradient(114deg,#03f85d 0%, #00ff30 20%, #41ff06 40%, #41ff06 99%);
+    clip-path: polygon(0 3%, 100% 2%, 100% 99%, 2% 94%);
+}
+#bootcamp {
+    padding-top: 20px;
+}
+#fcc {
+    padding: 70px 0 0 9%;
+    text-align: left;
+}
+#occ {
+    padding: 50px 0 0 18%;
+}
+#formation h4 {
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding-bottom: 10px;
+    color: #00ff30;
+    text-shadow: -1px -1px 1px #111111;
+}
+.counter {
+    display: flex;
+    text-align: center;
+}
+.data {
+    border:1px solid #00ff30;
+    width: 170px;
+    margin: 0 4%;
+    box-shadow: 0 0 8px #41ff06;
+}
+.counter-value {
+    font-size: 2em;
+}
+.data-span {
+    font-size: 1.8em;
+}
